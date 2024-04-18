@@ -1,0 +1,399 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, sans-serif;
+}
+
+body {
+  min-width: 100vh;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  width: 100%;
+  font-size: 19px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  height: 75px;
+  justify-content: center;
+}
+
+nav li {
+  list-style: none;
+  background-color: #2265a9;
+  flex: 1;
+  align-content: center;
+  border: 5px solid white;
+}
+
+nav ul a {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+nav a:hover {
+  color: black;
+}
+
+.container-main {
+  width: 100% auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px auto;
+}
+
+.containter-main-h3 {
+  width: 30% auto;
+  font-size: 40px;
+  padding: 10px 20px 10px 0px;
+}
+
+#verticle-line {
+  width: 0.1%;
+  height: 55px;
+  background-color: black;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.containter-main-h6 {
+  width: 18% auto;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 30px 5px 10px 0px;
+}
+
+.containter-main-contact {
+  width: 50.8%;
+  text-align: right;
+  padding-top: 20px;
+}
+
+.containter-main-contact a {
+  text-decoration: none;
+  color: black;
+  font-weight: lighter;
+  font-size: 15px;
+}
+
+.section {
+  background-color: #bedaff;
+  position: relative;
+  height: 400px;
+  width: 100%;
+}
+
+.textbox {
+  display: block;
+  background-color: #2265a9;
+  color: white;
+  width: 350px;
+  height: 200px;
+  padding: 20px;
+  line-height: 1.2em;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  z-index: 2;
+}
+
+.textbox h2 {
+  font-size: 20px;
+  border-bottom: 1px dashed white;
+  padding-bottom: 6px;
+  letter-spacing: 1.3px;
+}
+.textbox p {
+  font-size: 16px;
+  line-height: 1.2em;
+  padding-top: 6px;
+}
+.section h3 {
+  font-size: 120px;
+  position: absolute;
+  z-index: 1;
+  background-color: #31894d;
+  color: white;
+  padding: 15px;
+  border-radius: 5%;
+  top: 150px;
+  left: 100px;
+}
+.section h1 {
+  background-color: #2265a9;
+  color: white;
+  position: absolute;
+  font-size: 68px;
+  top: 350px;
+  left: 300px;
+  padding: 15px;
+  z-index: 2;
+}
+
+.section h1 span {
+  font-family: fantasy;
+  padding-left: 15px;
+  font-stretch: extra-condensed;
+}
+
+.space {
+  margin-top: 90px;
+}
+.section:after {
+  display: block;
+  content: "";
+  clear: both;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.container-cards {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 2px dashed grey;
+}
+.container,
+.container2,
+.container3 {
+  background-color: #e8e8e8;
+  width: 31%;
+  padding: 25px;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.container-cards h5 {
+  font-size: 22px;
+  font-weight: 600;
+  font-stretch: extra-expanded;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px dashed grey;
+}
+.container-cards img {
+  padding: 5px;
+  width: 100%;
+  background-color: white;
+  border: 1px solid #2265a9;
+  margin-top: 15px;
+}
+#ch {
+  display: none;
+}
+.content {
+  display: none;
+}
+#ch:checked ~ .content {
+  display: block;
+}
+#ch:checked ~ label {
+  display: none;
+}
+.container-cards label {
+  display: inline-block;
+  cursor: pointer;
+  padding-left: 8px;
+  margin-left: 140px;
+  text-align: right;
+  color: darkblue;
+  font-weight: bold;
+}
+.container-cards label span {
+  padding-left: 8px;
+  padding-top: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: extra-condensed;
+  font-weight: 800;
+}
+#ch2 {
+  display: none;
+}
+.content2 {
+  display: none;
+}
+#ch2:checked ~ .content2 {
+  display: block;
+}
+#ch2:checked ~ label {
+  display: none;
+}
+
+#ch3 {
+  display: none;
+}
+.content3 {
+  display: none;
+}
+#ch3:checked ~ .content3 {
+  display: block;
+}
+#ch3:checked ~ label {
+  display: none;
+}
+
+.container-main2 {
+  display: flex;
+  margin-top: 30px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.container-main-card {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  border-bottom: 2px dotted grey;
+  margin-right: 25px;
+}
+
+.container-main-card-img {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #2265a9;
+  width: 35%;
+  object-fit: scale-down;
+}
+
+.container-main-card-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-main-card-text {
+  padding: 20px 0px 20px 20px;
+  font-size: 15px;
+  line-height: 1.5em;
+  width: 65%;
+  height: 100%;
+}
+
+.container-main-card-text h4 {
+  font-size: 25px;
+  padding-bottom: 15px;
+  border-bottom: 2px dotted grey;
+}
+
+.container4 {
+  margin-top: 10px;
+}
+.container4 label {
+  color: darkblue;
+  font-weight: 700;
+  padding-left: 270px;
+  cursor: pointer;
+}
+.container4 label span {
+  padding-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+}
+#ch4 {
+  display: none;
+}
+.content4 {
+  display: none;
+}
+#ch4:checked ~ .content4 {
+  display: block;
+}
+#ch4:checked ~ label {
+  display: none;
+}
+.aside {
+  width: 30%;
+  background-color: #f6f6f6;
+}
+.aside h5 {
+  font-size: 30px;
+  color: grey;
+  border-bottom: 2px dashed grey;
+  padding-bottom: 5px;
+}
+
+.aside ul {
+  margin-top: 20px;
+}
+
+.aside ul li {
+  list-style-type: none;
+  list-style-position: inside;
+  border-bottom: 1px solid grey;
+  margin-top: 6px;
+}
+.aside ul li a {
+  text-decoration: none;
+  color: darkblue;
+}
+
+.aside ul li a span {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: -1px;
+  font-size: 10px;
+  font-weight: 800;
+  padding-right: 5px;
+}
+
+.container-imgs {
+  margin-top: 30px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container-imgs img {
+  padding: 5px;
+  background-color: white;
+  border: 1px solid #2265a9;
+  width: 19%;
+}
+
+.container-footer {
+  width: 100%;
+  background-color: #2265a9;
+  color: white;
+  margin-top: 15px;
+}
+
+.container-footer footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    margin: 5px;
+  }
+  .section h1 {
+    font-size: 30px;
+  }
+  .section h3 {
+    font-size: 60px;
+  }
+  .container-cards label {
+    margin-left: 30px;
+  }
+  .textbox {
+    width: 250px;
+    height: 100px;
+    overflow: scroll;
+  }
+}
