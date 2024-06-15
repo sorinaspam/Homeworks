@@ -1,0 +1,52 @@
+body {
+  background-image: url(/Homework6_RockPaperScissors/Assets/b6.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.rps {
+  padding-top: 60px;
+}
+img {
+  border-radius: 50%;
+}
+
+.choice {
+  color: #5c2146;
+  font-size: 20px;
+  background-color: #b193ae;
+  border: px solid #5c2146;
+}
+
+.input {
+  border: 1px solid #5c2146;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  text-align: center;
+  color: #5c2146;
+  font-weight: bold;
+}
+.reset {
+  color: #5c2146;
+  font-size: 50px;
+  font-weight: 600;
+  border: 3px solid #5c2146;
+  border-radius: 10%;
+}
+.scoreboard {
+  padding-top: 60px;
+}
+.card {
+  border: 2px solid #5c2146;
+}
+.card-title {
+  color: #5c2146;
+}
+
+#tabela a {
+  font-size: 30px;
+  font-weight: bold;
+  color: blue;
+  text-decoration: none;
+}
